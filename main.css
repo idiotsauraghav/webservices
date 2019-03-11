@@ -16,6 +16,9 @@ body::-webkit-scrollbar-thumb {
     background-color: darkgrey;
   } */
 
+  .website-wrapper{
+      padding: 0px;
+  }
 .info{
     margin-top: 10%;
 }
@@ -112,6 +115,9 @@ body::-webkit-scrollbar-thumb {
 .countermail{
    background-color: #227AB3; 
    height: 450px;
+}
+.countermail-wrapper{
+    padding: 0px;
 }
 
 .num{
@@ -279,7 +285,7 @@ body::-webkit-scrollbar-thumb {
     padding-top: 70px;
 }
 .services3{
-    padding-top: 0px;
+    padding-top: 30px;
 }
 .services2.overridenserv{
     padding-top: 10px;
