@@ -25,7 +25,7 @@
 <body>
 
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
         <!-- Brand/logo -->
         <a class="navbar-brand" href="#">Company</a>
         
@@ -70,15 +70,19 @@
     <!-- About us -->
     <div class="about-us-wrapper is-container">
         <div class="row">
-            <div class="col-sm-7">
-                <div class="about-us-content-wrapper">
-                    <p class="about-us-content">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <div class="col-sm-6">
+                <div class="about-img-content">
+                    <hr class="divider" />
+                    <h2>Who <br/> we are...</h2>
+                    <div class="about-data">
+                        <h5>Digital Media Expert with <br/> 12+ Years of Professional Experience.</h5>
+                        <p>This is a great space to write a long text about your company and your services. You can use this space to go into a little more detail about your company. Talk about your team and what services you provide. Tell your visitors the story of how you came up with the idea for your business and what makes you different from your competitors. Make your company stand out and show your visitors who you are.</p>
+                    </div>
                 </div>
             </div>
-            <div class="col-sm-5">
-                <div class="about-us-heading-wrapper">
-                    <div class="about-us-heading-overlay"></div>
-                    <h2 class="about-us-heading">Who<br />We<br />Are?</h2>
+            <div class="col-sm-6">
+                <div class="about-img-wrapper">
+                    <div class="about-img"></div>
                 </div>
             </div>
         </div>
@@ -147,6 +151,23 @@
     </div>
     <!-- Services ends -->
 
+    <div class="tech-wrapper is-container">
+        <div class="row">
+            <div class="col-sm-3">
+                <img src="./Assets/tech/t1.png" height="100"/>
+            </div>
+            <div class="col-sm-3">
+                <img src="./Assets/tech/t2.png" height="100"/>
+            </div>
+            <div class="col-sm-3">
+                <img src="./Assets/tech/t3.png" height="100"/>
+            </div>
+            <div class="col-sm-3">
+                <img src="./Assets/tech/t4.png" height="100"/>
+            </div>
+        </div>
+    </div>
+
     <!-- Portfolio -->
     <div class="portfolio-wrapper is-container">
         <div class="portfolio-heading-wrapper">
@@ -195,18 +216,136 @@
     <!-- Portfolio ends -->
 
     <!-- Clients -->
-    <div class="clients-wrapper">
+    <div class="clients-wrapper is-container">
+        <div class="clients-heading-wrapper">
+            <h2 class="clients-heading">Our Clients</h2>
+            <hr class="divider" />
+        </div>
         <div class="owl-carousel clients-list">
-            <div> Your Content </div>
-            <div> Your Content </div>
-            <div> Your Content </div>
-            <div> Your Content </div>
-            <div> Your Content </div>
-            <div> Your Content </div>
-            <div> Your Content </div>
+            <div><img class="client-img" src="./assets/clients/facebook.png" /></div>
+            <div><img class="client-img" src="./assets/clients/google.png" /></div>
+            <div><img class="client-img" src="./assets/clients/youtube.png" /></div>
+            <div><img class="client-img" src="./assets/clients/zoho.png" /></div>
+            <div><img class="client-img" src="./assets/clients/lays.png" /></div>
         </div>
     </div>
     <!-- Clients ends -->
+
+    <!-- Testimonials -->
+    <section class="testimonial is-container" aria-label="testimonal">
+        <div class="testimonial-heading-wrapper">
+            <h2 class="testimonial-heading">Testimonials</h2>
+            <hr class="divider" />
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="testimonials">
+                    <div class="active item">
+                        <blockquote><p>Denim you probably haven't heard of. Lorem ipsum dolor met consectetur adipisicing sit amet, consectetur adipisicing elit, of them jean shorts sed magna aliqua. Lorem ipsum dolor met.</p></blockquote>
+                        <div class="carousel-info">
+                        <img alt="" src="http://keenthemes.com/assets/bootsnipp/img1-small.jpg" class="pull-left">
+                        <div class="pull-left">
+                            <span class="testimonials-name">Lina Mars</span>
+                            <span class="testimonials-post">Commercial Director</span>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="testimonials">
+                    <div class="active item">
+                        <blockquote><p>Denim you probably haven't heard of. Lorem ipsum dolor met consectetur adipisicing sit amet, consectetur adipisicing elit, of them jean shorts sed magna aliqua. Lorem ipsum dolor met.</p></blockquote>
+                        <div class="carousel-info">
+                        <img alt="" src="http://keenthemes.com/assets/bootsnipp/img1-small.jpg" class="pull-left">
+                        <div class="pull-left">
+                            <span class="testimonials-name">Lina Mars</span>
+                            <span class="testimonials-post">Commercial Director</span>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="testimonials">
+                    <div class="active item">
+                        <blockquote><p>Denim you probably haven't heard of. Lorem ipsum dolor met consectetur adipisicing sit amet, consectetur adipisicing elit, of them jean shorts sed magna aliqua. Lorem ipsum dolor met.</p></blockquote>
+                        <div class="carousel-info">
+                        <img alt="" src="http://keenthemes.com/assets/bootsnipp/img1-small.jpg" class="pull-left">
+                        <div class="pull-left">
+                            <span class="testimonials-name">Lina Mars</span>
+                            <span class="testimonials-post">Commercial Director</span>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Testimonial Ends -->
+
+    <!-- Footer -->
+    <footer>
+            <div class="centered clearfix is-container">
+              <div class="footer-logo">
+                <img class="logo" src="http://www.infinityshark.com/photos/is_logo_white.png">
+                <div class="social">
+                  <a href="https://www.facebook.com/" class="facebook">
+                    <svg viewBox="0 0 33 33"><g><path d="M 17.996,32L 12,32 L 12,16 l-4,0 l0-5.514 l 4-0.002l-0.006-3.248C 11.993,2.737, 13.213,0, 18.512,0l 4.412,0 l0,5.515 l-2.757,0 c-2.063,0-2.163,0.77-2.163,2.209l-0.008,2.76l 4.959,0 l-0.585,5.514L 18,16L 17.996,32z"></path></g></svg>
+                  </a>
+                  <a href="https://twitter.com/" class="twitter">
+                    <svg viewBox="0 0 33 33"><g><path d="M 32,6.076c-1.177,0.522-2.443,0.875-3.771,1.034c 1.355-0.813, 2.396-2.099, 2.887-3.632 c-1.269,0.752-2.674,1.299-4.169,1.593c-1.198-1.276-2.904-2.073-4.792-2.073c-3.626,0-6.565,2.939-6.565,6.565 c0,0.515, 0.058,1.016, 0.17,1.496c-5.456-0.274-10.294-2.888-13.532-6.86c-0.565,0.97-0.889,2.097-0.889,3.301 c0,2.278, 1.159,4.287, 2.921,5.465c-1.076-0.034-2.088-0.329-2.974-0.821c-0.001,0.027-0.001,0.055-0.001,0.083 c0,3.181, 2.263,5.834, 5.266,6.438c-0.551,0.15-1.131,0.23-1.73,0.23c-0.423,0-0.834-0.041-1.235-0.118 c 0.836,2.608, 3.26,4.506, 6.133,4.559c-2.247,1.761-5.078,2.81-8.154,2.81c-0.53,0-1.052-0.031-1.566-0.092 c 2.905,1.863, 6.356,2.95, 10.064,2.95c 12.076,0, 18.679-10.004, 18.679-18.68c0-0.285-0.006-0.568-0.019-0.849 C 30.007,8.548, 31.12,7.392, 32,6.076z"></path></g></svg>
+                  </a>
+                  <a href="https://www.linkedin.com/" class="linkedin">
+                    <svg viewBox="0 0 512 512"><g><path d="M186.4 142.4c0 19-15.3 34.5-34.2 34.5 -18.9 0-34.2-15.4-34.2-34.5 0-19 15.3-34.5 34.2-34.5C171.1 107.9 186.4 123.4 186.4 142.4zM181.4 201.3h-57.8V388.1h57.8V201.3zM273.8 201.3h-55.4V388.1h55.4c0 0 0-69.3 0-98 0-26.3 12.1-41.9 35.2-41.9 21.3 0 31.5 15 31.5 41.9 0 26.9 0 98 0 98h57.5c0 0 0-68.2 0-118.3 0-50-28.3-74.2-68-74.2 -39.6 0-56.3 30.9-56.3 30.9v-25.2H273.8z"></path></g></svg>
+                  </a>
+                </div>
+              </div>
+              <div class="footer-contact">
+                 <h6><a href="">Contact</a></h6>
+                 <hr class="divider">
+                 <p><a href="mailto:">example@email.com</a></p>
+                 <p><a href="tel:">123-456-7890</a></p>
+                 <p><a href="">123 Fake St<br />Fake, PA 11111</a></p>
+              </div>
+              <div class="footer-navigation">
+                <div class="footer-links-holder">
+                  <h6><a href="">Section 1</a></h6>
+                  <hr class="divider">
+                  <ul class="footer-links">
+                    <li><a href="">Page Title 1</a></li>
+                    <li><a href="">Page Title 2</a></li>
+                    <li><a href="">Page Title 3</a></li>
+                    <li><a href="">Page Title 4</a></li>
+                  </ul>
+                </div>
+                <div class="footer-links-holder">
+                  <h6><a href="">Section 2</a></h6>
+                  <hr class="divider">
+                  <ul class="footer-links">
+                    <li><a href="">Page Title 1</a></li>
+                    <li><a href="">Page Title 2</a></li>
+                    <li><a href="">Page Title 3</a></li>
+                    <li><a href="">Page Title 4</a></li>
+                  </ul>
+                </div>
+                <div class="footer-links-holder">
+                  <h6><a href="">Section 3</a></h6>
+                  <hr class="divider">
+                  <ul class="footer-links">
+                    <li><a href="">Page Title 1</a></li>
+                    <li><a href="">Page Title 2</a></li>
+                    <li><a href="">Page Title 3</a></li>
+                    <li><a href="">Page Title 4</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="bottom-bar">
+                All Rights Reserved © 2019 | <a href="">Privacy Policy</a> | <a href="">Terms of Service</a>
+            </div>
+          </footer>
+    <!-- Footer ends -->
 
     <!-- Scripts -->
     <script src="./js/index.js"></script>
