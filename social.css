@@ -1,0 +1,112 @@
+.social-subheading-wrapper {
+    width: 100%;
+    text-align: center;
+}
+
+.social-heading-wrapper {
+    width: 100%;
+    text-align: center;
+}
+
+.social-bottom-heading {
+    width: 100%;
+    text-align: center;
+}
+
+.social-subheading-wrapper h6 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.social-heading-wrapper h1 {
+    font-size: 70px;
+    margin-bottom: 25px;
+}
+
+.social-bottom-heading h4 {
+    font-size: 25px;
+}
+
+.social-marketing-wrapper {
+   
+
+    color: white;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    background-image: url(./Assets/bannerimages/b1.jpg);
+}
+
+.approach-wrapper {
+    padding-top: 60px;
+    width: 100%;
+    text-align: center;
+}
+
+.approach-heading {
+    width: 100%;
+}
+
+.aprroach-subheading-wrapper {
+    width: 100%;
+}
+
+.approach-heading h1 {
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.aprroach-subheading-wrapper h5 {
+    font-size: 1.65rem;
+    font-weight: 400;
+    font-family: "Lato", serif;
+    font-style: italic;
+    margin-top: 15px;
+}
+.approach-about{
+    text-align: justify;
+}
+
+.approach-about p {
+    margin-top: 35px;
+}
+
+.attract-audience-img-wrapper img {
+    height: 120px;
+}
+
+.audience-wrapper {
+    display: flex;
+    margin-top: 70px;
+    justify-content: space-between;
+}
+
+.attract-audience-para-wrapper p {
+    text-align: left;
+}
+
+.attract-audience-heading-wrapper h4 {
+    margin-top: 30px;
+}
+
+.attract-audience-para-wrapper p {
+    margin-top: 20px;
+}
+
+.attract-audience-wrapper {
+    width: 30%;
+    background-color: rgba(250, 250, 250, 0.8);
+    padding: 15px;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 0px 0px 25px -6px rgba(0, 0, 0, 0.2)
+}
+.banner-wrapper{
+    background-color: rgba(0,0,0,0.3);
+    height: 100%;
+    width: 100%;
+}
+.banner-wrapper .container{
+    height: 100%;
+    width: 100%;
+    margin: 10% auto;
+}

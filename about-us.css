@@ -1,0 +1,162 @@
+.about-us-cover-img-wrapper{
+    background-image: url(./Assets/about-us.jpg);
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+}
+.about-us-cover-img-wrapper-overlay{
+    background-color: rgba(0,0,0,0.3);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+.about-us-heading h1{
+    color: #fff;
+    font-size: 50px;
+}
+.about-us-card-wrapper{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.card-image {
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+    width: 100%;
+
+}
+.card-contents-wrapper{
+    box-shadow: 0px 0px 25px -6px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    background-color: white;
+    margin: -30px;
+
+}
+.card-wrapper{
+    margin-top: -100px;
+    position: relative;
+    padding-bottom: 150px;
+}
+.about-us-heading{
+    position: relative;
+    z-index: 2;
+}
+.card-image.img1{
+    background: url("./Assets/idea.jpg");
+}
+.card-image.img2{
+    background: url("./Assets/team.jpg");
+}
+.card-image.img3{
+    background: url("./Assets/reality.jpg");
+}
+.card-contents-wrapper h4{
+    margin-top: 15px;
+    text-align: center;
+}
+.card-contents-wrapper p{
+    text-align: left;
+}
+.card-format-wrapper{
+   background-color: #F7F7F7;
+}
+.msnp-heading-wrapper{
+    width: 100%;
+}
+.msnp-about-wrapper{
+    width: 100%;
+}
+.msnp-heading-wrapper h1{
+    text-align: center;
+}
+.msnp-about-wrapper p{
+    word-break: break-word;
+    width: 800px;
+    margin-left: 155px;
+    margin-top: 10px;
+    text-align: center;
+}
+.what-is-msnp-wrapper{
+    padding-top: 80px;
+}
+.icon-style{
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    overflow: hidden;
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: 0 10px 30px 0 rgba(0, 0, 0, .2);
+    margin-bottom: 30px;
+    color: #f39c12;
+    font-size: 30px;
+    text-align: center;
+}
+.services-msnp-provide-wrapper{
+    text-align: center;
+    margin-top: 80px;
+}
+.counter {
+    background-color:#f5f5f5;
+    padding: 20px 0;
+    border-radius: 5px;
+}
+
+.count-title {
+    font-size: 40px;
+    font-weight: normal;
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.count-text {
+    font-size: 13px;
+    font-weight: normal;
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.fa-2x {
+    margin: 0 auto;
+    float: none;
+    display: table;
+    color: #4ad1e5;
+}
+.leader-subheading-wrapper h6{
+    color:#C2CAD8;
+    letter-spacing: 10px;
+
+}
+.leader-heading-wrapper h2{
+    font-size: 46px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.leader-para-wrapper p{
+    color: #626262;
+    margin-top: 25px;
+}
+.c1{
+    background-color: white;
+}
+.c1 h2{
+    color: #f39c12;
+    font-size: 52px;
+}
+.c1 p{
+    color:#C2C2C2;
+    font-size: 15px;
+}
+.msnp-leaders-wrapper{
+    margin-top: 80px;
+    padding-bottom: 100px;
+}
