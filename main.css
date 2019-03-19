@@ -20,7 +20,7 @@ body::-webkit-scrollbar-thumb {
       padding: 0px;
   }
 .info{
-    margin-top: 10%;
+    margin-top: 20%;
 }
 .info-main,.tablet-heading{
     color: #2C3E50;
@@ -65,11 +65,11 @@ body::-webkit-scrollbar-thumb {
     padding: 3.5%;
     text-align: center;
     margin-left: 61%;
-    background-color: rgb(214, 0, 92);
+    background-color: #16181C;
     font-family: 'Quicksand', sans-serif;
     font-size: 21px;
     text-decoration: none;
-    border-color:  rgb(214, 0, 92);
+    border-color:  #16181C;
     transition: all 0.6s ease 0s;
 }
 .getstarted:hover{
