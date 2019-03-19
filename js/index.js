@@ -18,5 +18,19 @@ bannerTextChange();
 
 //__ Owl carousel ...
 $(document).ready(function(){
-    $(".owl-carousel").owlCarousel();
+    $(".owl-carousel").owlCarousel({
+        items: 5
+    });
+
+    $(".banner-wrapper").css("height" , window.innerHeight);
+    $(".banner-img-overlay").css("height" , window.innerHeight);
+    $(".banner-text-wrapper").css("height" , window.innerHeight);
+    $(".banner-img").css("height" , window.innerHeight);
+});
+
+//__ Footer ...
+$(function() {
+    $('.footer-links-holder h3').click(function () {
+        $(this).parent().toggleClass('active');
+    });
 });
