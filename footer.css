@@ -94,6 +94,13 @@ margin-right: 5px;
   padding-bottom: 0px;
   margin-bottom: 10px;
 }
+.msnp-foo-contents{
+  display: block;
+}
+.row.text-center.text-xs-center.text-sm-left.text-md-left{
+  padding-top: 20px;
+  text-align: center !important;
+}
 }
   
 @keyframes meananimation{
