@@ -110,3 +110,29 @@
     width: 100%;
     margin: 10% auto;
 }
+
+@media(max-width: 700px) {
+    .attract-audience-img-wrapper img {
+        height: 55px !important;
+    }
+}
+@media(max-width: 420px){
+    .social-heading-wrapper h1{
+        font-size: 60px;
+    }
+    .social-bottom-heading h4{
+        padding: 0px 3px;
+    }
+    .aprroach-subheading-wrapper h5{
+        padding: 0px 3px;
+    }
+    .appraoch-about{
+        padding: 0px 10px;
+    }
+    .attract-audience-wrapper{
+        padding: 0px;
+    }
+    .attract-audience-para-wrapper p{
+        padding: 0px 8px;
+    }
+}

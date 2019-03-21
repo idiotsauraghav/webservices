@@ -26,6 +26,7 @@ body::-webkit-scrollbar-thumb {
     margin-top: 20%;
 }
 
+
 .info-main,
 .tablet-heading {
     color: #2C3E50;
@@ -440,13 +441,15 @@ body::-webkit-scrollbar-thumb {
 
 .banner-section {
     background-attachment: fixed;
+    position: relative;
+
 
 }
 
 .background {
     background-image: url("./Assets/mean-stack-1.png");
     width: 100%;
-    height: 115vh;
+    height: 100%;
     position: absolute;
     top: 0;
     left: 0;
@@ -456,8 +459,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .home-wrapper {
-    margin-top: 50px;
-
+    padding-top: 50px;
 }
 
 .learn-heading-wrapper {
@@ -653,8 +655,12 @@ section .section-title {
 @media (max-width: 769px) {
     .talk{
         display: none;
-    }   
+    }  
+    .attract-audience-img-wrapper img{
+        height: 60px;
+    }
 }
+
 @media (max-width: 992px){
     .spsoft img{
         display: none;
