@@ -63,6 +63,15 @@ body { font-family: sans-serif; }
      .msnp-contents{
          display: none;
      }
+     .msnp-responsive-content-img-wrapper img{
+        width: 100%;
+     }
 }
+@media(min-width:768px){
+    .msnp-responsive-content-img-wrapper img{
+        display: none;
+    }
+    }
+
 
 
