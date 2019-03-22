@@ -34,7 +34,7 @@
     height: 600px;
     display: flex;
     align-items: center;
-    background-image: url(./Assets/bannerimages/b1.jpg);
+    background-image: url(./assets/bannerimages/b1.jpg);
 }
 
 .approach-wrapper {

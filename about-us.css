@@ -1,5 +1,5 @@
 .about-us-cover-img-wrapper{
-    background-image: url(./Assets/about-us.jpg);
+    background-image: url(./assets/about-us.jpg);
     background-size: cover;
     height: 500px;
     display: flex;
@@ -48,13 +48,13 @@
     z-index: 2;
 }
 .card-image.img1{
-    background: url("./Assets/idea.jpg");
+    background: url("./assets/idea.jpg");
 }
 .card-image.img2{
-    background: url("./Assets/team.jpg");
+    background: url("./assets/team.jpg");
 }
 .card-image.img3{
-    background: url("./Assets/reality.jpg");
+    background: url("./assets/reality.jpg");
 }
 .card-contents-wrapper h4{
     margin-top: 15px;
