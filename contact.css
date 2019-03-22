@@ -47,3 +47,42 @@ body *{
     font-size: 25px;
 }
 
+@media(max-width: 767px) {
+    .contact-cover-img-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-size: cover;
+        background-position: center bottom;
+        height: 600px;
+    }
+
+    .get-in-touch-heading-wrapper h4 {
+        width: auto;
+    }
+
+    .container .contact-form {
+        margin: auto !important;
+    }
+
+    .container .contact-form input, .container .contact-form textarea {
+        width: 100%;
+    }
+
+    .get-in-touch-heading-wrapper {
+        padding-top: 0 !important;
+    }
+
+    .get-in-touch-section {
+        padding: 0 !important;
+    }
+
+    .container {
+        height: auto;
+    }
+
+    #footer {
+        margin-top: 50px;
+    }
+}
