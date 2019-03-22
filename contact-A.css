@@ -65,3 +65,9 @@
   .contact-form form button{
       font-size: 15px;
   }
+  @media(max-width:767px){
+   .container .contact-form{
+      margin: 0px;
+      float: none;
+    }
+  }

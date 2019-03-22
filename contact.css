@@ -46,4 +46,23 @@ body *{
 .fas{
     font-size: 25px;
 }
+@media(max-width:767px){
+    .text-center iframe{
+        display: none;
+    }
+    .get-in-touch-heading-wrapper{
+        padding: 0px;
+    }
+    .get-in-touch-section-wrapper{
+        padding: 0px;
+    }
+    .responsive{
+        margin-top: 530px;
+    }
+}
+@media(max-width:990px){
+    .text-center iframe{
+        margin-top: 750px;
+    }
+}
 
