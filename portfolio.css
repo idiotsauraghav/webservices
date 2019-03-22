@@ -66,6 +66,9 @@ body { font-family: sans-serif; }
      .msnp-responsive-content-img-wrapper img{
         width: 100%;
      }
+     .msnp-logo-wrapper img{
+         width: 25% !important;
+     }
 }
 @media(min-width:768px){
     .msnp-responsive-content-img-wrapper img{
