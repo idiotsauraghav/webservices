@@ -3,7 +3,7 @@ body *{
     
 }
 .contact-cover-img-wrapper{
-    background-image: url(./Assets/contact-header.jpg);
+    background-image: url(./assets/contact-header.jpg);
     height: 500px;
     background-attachment: fixed;
     background-repeat: no-repeat;

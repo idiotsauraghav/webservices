@@ -105,7 +105,7 @@ nav.bg-dark {
     display: flex;
     width: 100%;
     justify-content: center;
-    background: url('../Assets/backgrounds/b1.jpg');
+    background: url('../assets/backgrounds/b1.jpg');
     background-size: cover;
     background-attachment: fixed;
     height: 100%;
@@ -536,7 +536,7 @@ footer {
   }
   
   .about-img {
-    background: url("../Assets/wwr.jpg");
+    background: url("../assets/wwr.jpg");
     background-position: right;
     background-size: cover;
     margin-left: 40px;
