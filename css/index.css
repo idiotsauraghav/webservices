@@ -21,9 +21,9 @@ nav {
     box-shadow: 0 1px 5px rgba(0,0,0,0.1);
 }
 
-nav.bg-dark {
+/* nav.bg-dark {
     background: #111 !important;
-}
+} */
 
 
 /* Banner */
@@ -660,4 +660,16 @@ border-bottom-style: inset; /*FF fixes*/
   padding-top: 20px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
   padding-bottom: 20px;
+}
+/* additional services starts here */
+.additional-services-image-wrapper img{
+  width: 100%;
+}
+.additional-services-para-wrapper p{
+  font-size: 15px;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+}
+.additional-services{
+  margin-bottom: 80px;
 }

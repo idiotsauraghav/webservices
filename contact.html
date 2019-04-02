@@ -26,6 +26,7 @@
     <link rel="stylesheet" href="contact.css">
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="./one-time-support.css">
     <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 
@@ -40,10 +41,16 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
 <body>
+        <div class="icon-bar">
+                <a href="#" class="facebook"><i class="fa fa-facebook"></i></a> 
+                <a href="#" class="twitter"><i class="fa fa-twitter"></i></a> 
+                <a href="#" class="google"><i class="fa fa-google-plus"></i></a> 
+                <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a> 
+              </div>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
             <!-- Brand/logo -->
-            <a class="navbar-brand" href="./home.html">MSNP Solutions</a>
+            <a class="navbar-brand" href="./home.html">Support X</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                     <span class="navbar-toggler-icon"></span>
                   </button>
@@ -65,11 +72,19 @@
             <a class="nav-link" href="./socialmarketing.html">Marketing</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link" href="./e-comm.html">E-Comm</a>
+                <div class="dropdown">
+                        <button class="dropbtn"><a href="./one-time-fix.html">Support Plans</a></button>
+                    <div class="dropdown-content">
+                      <a href="./one-time-fix.html">One Time Fix</a>
+                      <a href="./one-support.html">One Support</a>
+                      <a href="./one-protect.html">One Protect</a>
+                      <a href="./one-security.html">One Security</a>
+                    </div>
+                  </div>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
             <a class="nav-link" href="./portfolio.html">Portfolio</a>
-            </li>
+            </li> -->
             <li class="nav-item">
             <a class="nav-link" href="./about-us.html">About Us</a>
             </li>
