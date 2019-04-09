@@ -536,13 +536,14 @@ footer {
   }
   
   .about-img {
-    background: url("../assets/wwr.jpg");
-    background-position: right;
+    background: url("../assets/tech.jpeg");
+    background-position: center;
     background-size: cover;
     margin-left: 40px;
     position: absolute;
     height: 100%;
     width: 100%;
+    
   }
 
 .about-img-content {
@@ -670,6 +671,15 @@ border-bottom-style: inset; /*FF fixes*/
   font-weight: 500;
   font-family: 'Roboto', sans-serif;
 }
-.additional-services{
-  margin-bottom: 80px;
+.asw1-top{
+  margin-bottom: 120px;
+}
+.asw-img-wrapper{
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 25px;
+}
+.additional-services-image-wrapper img{
+  width: 100px;
 }
